@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: #111;
+}
+
+.app {
+    font-size: 4rem;
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    width: 30rem;
+}
+.songlist {
+    display: inline-block;
+    padding: 3rem 2rem 2rem;
+    background-color: #ccc;
+}
+.songlist > *:not(:last-child){
+    border-bottom: 2px solid #111;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.btn {
+    margin-left: 2rem;
+    color: #ddd;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 2px;
+    background-color: #121212;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #000;
+}
